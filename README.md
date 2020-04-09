@@ -1,10 +1,10 @@
-# [ANYALGO](https://github.com/ANYALGO/ANYALGO)
+# [ANYALGO](https://anyalgo.github.io/ANYALGO/)
 
 [中文](README_CN.md)
 
-[ANYALGO](https://github.com/ANYALGO/ANYALGO) is our algorithm summary.
+[ANYALGO](https://anyalgo.github.io/ANYALGO/) is our algorithm summary.
 
-Let's [start~](https://github.com/ANYALGO/ANYALGO/#/summary)
+Let's [start~](https://anyalgo.github.io/ANYALGO/#/summary)
 
 ## Local deployment
 
