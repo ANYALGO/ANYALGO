@@ -5,5 +5,5 @@
 * Algorithm
 * Data structure
 
-[GitHub](https://github.com/CodePoem/VAlgorithm)
+[GitHub](https://github.com/ANYALGO/ANYALGO)
 [Summary](/summary)
