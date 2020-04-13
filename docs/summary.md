@@ -9,3 +9,7 @@
   - [合并二叉树 - 简单](/leetcode/mergeTrees.md)
   - [柠檬水找零 - 简单](/leetcode/lemonadeChange.md)
   - [亲密字符串 - 简单](/leetcode/buddyStrings.md)
+
+- PTA
+
+  - [(3n+1)猜想 - 简单](/PTA/callatzThink.md)
