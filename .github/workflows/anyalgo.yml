@@ -14,10 +14,10 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Setup Python
-      - uses: actions/setup-python@v1
-        with:
-          python-version: '3.8'
-          architecture: 'x64'
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.8'
+        architecture: 'x64'
     - name: Generate Summary
       run: |
         python3 generateSummary.py
