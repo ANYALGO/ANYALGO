@@ -29,7 +29,7 @@ def write_summary(file_dir, leetcode_file_name, leetcode_file_title, pta_file_na
     content.append('\n')
     content.append('- PTA\n\n')
     for index in range(len(pta_file_name)):
-        content.append('  - ['+ pta_file_title[index] + '](/leetcode/' + pta_file_name[index] +')\n')
+        content.append('  - ['+ pta_file_title[index] + '](/PTA/' + pta_file_name[index] +')\n')
     content.append('\n')
     f.writelines(content)
     f.close()
