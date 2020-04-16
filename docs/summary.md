@@ -14,5 +14,5 @@
 
 - PTA
 
-  - [(3n+1)猜想 - 简单](/leetcode/callatzThink.md)
+  - [(3n+1)猜想 - 简单](/PTA/callatzThink.md)
 
