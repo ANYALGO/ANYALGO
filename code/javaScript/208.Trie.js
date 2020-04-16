@@ -40,7 +40,7 @@ Trie.prototype.search = function (word) {
     }
     node = node.map.get(w);
   }
-  return node.map.get("0");
+  return node.map.has("0");
 };
 
 /**
