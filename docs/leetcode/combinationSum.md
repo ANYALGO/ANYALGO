@@ -13,22 +13,48 @@ candidates 中的数字可以无限制重复被选取。
 
 ## 思路
 
-### 思路一
+DFS + 剪枝
 
-【思路描述】
+根据题目，满足条件的数字组合在选择当前数字时有两种决策，一个是选择当前数字（选择当前数字后，target需要减去当前数字，继续选择），一个是选择下一个数字。因此题目实际上决策树的 DFS + 剪枝。
 
 - 时间复杂度 O(n)
-- 空间复杂度 O(1)
-
-### 思路二
+- 空间复杂度 O(n)
 
 ## 解答
-
-### 解答一
 
 C++语言实现：
 
 ```C++
-```
+class Solution {
+public:
+    vector<vector<int>> ans;
+    vector<int> path;
 
-### 解答二
+    void dfs(vector<int>& candidates, int target, int pos) {
+        if (target == 0) {
+            ans.push_back(path);
+            return;
+        }
+        if (target < 0) {  
+            // 剪枝
+            return;
+        }
+        if (pos == candidates.size()) {
+            return;
+        }
+
+        path.push_back(candidates[pos]);
+        // 选当前
+        dfs(candidates, target - candidates[pos], pos);
+        path.pop_back();
+
+        // 不选当前选下一个
+        dfs(candidates, target, pos + 1);
+    }
+
+    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+        dfs(candidates, target, 0);
+        return ans;
+    }
+};
+```
