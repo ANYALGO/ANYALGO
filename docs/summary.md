@@ -16,4 +16,5 @@
 - PTA
 
   - [(3n+1)猜想 - 简单](/PTA/callatzThink.md)
+  - [写下这个数 - 简单](/PTA/write-the-number.md)
 
