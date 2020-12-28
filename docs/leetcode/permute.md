@@ -24,7 +24,7 @@ class Solution {
 
 public:
     vector<vector<int>> ans;
-    
+
     void dfs(int n, vector<int> nums, int depth) {
         if(depth == n) {
             ans.push_back(vector<int>(nums));
